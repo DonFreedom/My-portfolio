@@ -86,12 +86,14 @@ p{
 .my-pic{
     border-radius: 10px;
     transition: .3s ease;
+    margin-bottom: 120px;
 
 }
 .my-pic:hover{
     border-radius: 15px;
     box-shadow: 0 0 .1rem var(--main-color);
     transition: .3s ease;
+    cursor: pointer;
 
 }
 .social-media a{
@@ -120,12 +122,13 @@ p{
     padding: 1rem 2.8rem;
     background:var(--main-color);
     border-radius: 4rem;
-    box-shadow: 0 0 .5rem var(--main-color);
+    box-shadow: none;
     font-size: 1rem;
     letter-spacing: .1rem;
-    transition: .5s ease ;
+    transition: .3s ease ;
 }
 .resume-btn:hover{
     box-shadow: none;
-    transition: .5s ease;
+    transition: .3s ease;
+    box-shadow: 0 0 .5rem var(--main-color);
 }
